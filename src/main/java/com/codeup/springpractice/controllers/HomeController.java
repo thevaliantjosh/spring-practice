@@ -16,7 +16,7 @@ public class HomeController {
 
     @GetMapping("/all-parks")
     public String parksPage(){
-        return "/all-parks";
+        return "parks";
     }
 
 }
